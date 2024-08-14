@@ -18,9 +18,9 @@ class MyWindow(Gtk.ApplicationWindow):
 
 
 def on_activate(app):
-    # Create window
     win = MyWindow(application=app)
     win.present()
+
 
 app = Gtk.Application(application_id='com.example.App')
 app.connect('activate', on_activate)
