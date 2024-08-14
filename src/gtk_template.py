@@ -19,8 +19,6 @@ class WindowWithTemplate(Gtk.ApplicationWindow):
     def __init__(self, **kargs):
         super().__init__(**kargs, title='With a Template')
         a_template = ATemplate()
-        a_template.props.height_request = 300
-        a_template.props.width_request = 300
         self.set_child(a_template)
 
 
