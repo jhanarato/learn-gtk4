@@ -5,7 +5,11 @@
         <property name="default-width">400</property>
         <property name="title">Adwaita with Header Bar</property>
         <property name="content">
-            <object class="AdwHeaderBar"/>
+            <object class="GtkListBox">
+                <child>
+                    <object class="AdwHeaderBar"/>
+                </child>
+            </object>
         </property>
     </template>
 </interface>
