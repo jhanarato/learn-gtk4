@@ -11,14 +11,19 @@
                     <object class="AdwHeaderBar"/>
                 </child>
                 <child>
-                    <object class="AdwPreferencesGroup">
-                        <property name="title">A Form</property>
-                        <property name="description">Fill me out!</property>
+                    <object class="AdwPreferencesPage">
+                        <property name="vexpand">True</property>
                         <child>
-                            <object class="GtkListBox" id="list_box">
+                            <object class="AdwPreferencesGroup">
+                                <property name="title">A Form</property>
+                                <property name="description">Fill me out!</property>
                                 <child>
-                                    <object class="GtkLabel">
-                                        <property name="label">A label</property>
+                                    <object class="GtkListBox" id="list_box">
+                                        <child>
+                                            <object class="GtkLabel">
+                                                <property name="label">A label</property>
+                                            </object>
+                                        </child>
                                     </object>
                                 </child>
                             </object>
