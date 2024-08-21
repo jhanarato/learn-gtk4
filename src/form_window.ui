@@ -20,9 +20,7 @@
                                 <child>
                                     <object class="GtkListBox" id="list_box">
                                         <child>
-                                            <object class="GtkLabel">
-                                                <property name="label">A label</property>
-                                            </object>
+                                            <object class="GtkEntry" id="first_entry"/>
                                         </child>
                                     </object>
                                 </child>
