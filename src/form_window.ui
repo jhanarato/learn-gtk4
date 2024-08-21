@@ -18,15 +18,11 @@
                                 <property name="title">A Form</property>
                                 <property name="description">Fill me out!</property>
                                 <child>
-                                    <object class="GtkListBox" id="list_box">
+                                    <object class="AdwActionRow" id="first_action_row">
+                                        <property name="title">First Entry</property>
                                         <child>
-                                            <object class="AdwActionRow" id="first_action_row">
-                                                <property name="title">First Entry</property>
-                                                <child>
-                                                    <object class="GtkEntry" id="first_entry">
-                                                        <property name="text">Default text</property>
-                                                    </object>
-                                                </child>
+                                            <object class="GtkEntry" id="first_entry">
+                                                <property name="text">Default text</property>
                                             </object>
                                         </child>
                                     </object>
