@@ -14,6 +14,15 @@
                     <object class="AdwPreferencesGroup">
                         <property name="title">A Form</property>
                         <property name="description">Fill me out!</property>
+                        <child>
+                            <object class="GtkListBox" id="list_box">
+                                <child>
+                                    <object class="GtkLabel">
+                                        <property name="label">A label</property>
+                                    </object>
+                                </child>
+                            </object>
+                        </child>
                     </object>
                 </child>
             </object>
