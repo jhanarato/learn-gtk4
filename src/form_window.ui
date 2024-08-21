@@ -6,7 +6,14 @@
             <object class="GtkBox">
                 <property name="orientation">vertical</property>
                 <child>
-                    <object class="AdwHeaderBar"/>
+                    <object class="AdwHeaderBar">
+                        <property name="show_end_title_buttons">False</property>
+                        <child type="end">
+                            <object class="GtkButton" id="apply-button">
+                                <property name="label">Apply</property>
+                            </object>
+                        </child>
+                    </object>
                 </child>
                 <child>
                     <object class="AdwPreferencesPage">
@@ -37,11 +44,6 @@
                                 </child>
                             </object>
                         </child>
-                    </object>
-                </child>
-                <child>
-                    <object class="GtkButton" id="save_button">
-                        <property name="label">Save</property>
                     </object>
                 </child>
             </object>
