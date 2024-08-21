@@ -39,6 +39,11 @@
                         </child>
                     </object>
                 </child>
+                <child>
+                    <object class="GtkButton" id="save_button">
+                        <property name="label">Save</property>
+                    </object>
+                </child>
             </object>
         </property>
   </template>
