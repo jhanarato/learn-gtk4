@@ -9,6 +9,10 @@ from gi.repository import Adw, Gtk
 class FormWindow(Adw.ApplicationWindow):
     __gtype_name__ = "form-window"
 
+    @Gtk.Template.Callback()
+    def cancel(self, button):
+        self.close()
+
 
 def on_activate(app):
     win = FormWindow(application=app)

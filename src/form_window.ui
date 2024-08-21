@@ -12,6 +12,7 @@
                         <child>
                             <object class="GtkButton" id="cancel-button">
                                 <property name="label">Cancel</property>
+                                <signal name="clicked" handler="cancel"/>
                             </object>
                         </child>
                         <child type="end">
