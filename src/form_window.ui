@@ -10,6 +10,12 @@
                 <child>
                     <object class="AdwHeaderBar"/>
                 </child>
+                <child>
+                    <object class="AdwPreferencesGroup">
+                        <property name="title">A Form</property>
+                        <property name="description">Fill me out!</property>
+                    </object>
+                </child>
             </object>
         </property>
   </template>
