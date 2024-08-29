@@ -5,7 +5,7 @@ gi.require_version('Adw', '1')
 from gi.repository import Adw, Gtk
 
 
-@Gtk.Template(filename="form_window.ui")
+@Gtk.Template(filename="templates/form_window.ui")
 class FormWindow(Adw.ApplicationWindow):
     __gtype_name__ = "form-window"
 
