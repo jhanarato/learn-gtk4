@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<interface>
+    <template class="NestingWindow" parent="AdwApplicationWindow">
+        <property name="title">Form Window</property>
+        <property name="content">
+            <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                    <object class="NestedButton" id="a-nested-button"/>
+                </child>
+            </object>
+        </property>
+    </template>
+</interface>

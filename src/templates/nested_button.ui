@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<interface>
+    <template class="NestedButton" parent="GtkButton">
+        <property name="label">Nested Button</property>
+    </template>
+</interface>
