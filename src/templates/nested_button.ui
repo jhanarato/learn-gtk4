@@ -2,6 +2,5 @@
 <interface>
     <template class="NestedButton" parent="GtkButton">
         <property name="label">Nested Button</property>
-        <signal name="clicked" handler="nested_button_clicked"/>
     </template>
 </interface>

@@ -6,7 +6,9 @@
             <object class="GtkBox">
                 <property name="orientation">vertical</property>
                 <child>
-                    <object class="NestedButton" id="a-nested-button"/>
+                    <object class="NestedButton" id="a-nested-button">
+                        <signal name="clicked" handler="button_clicked"/>
+                    </object>
                 </child>
             </object>
         </property>

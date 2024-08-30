@@ -9,16 +9,16 @@ from gi.repository import Adw, Gtk
 class NestedButton(Gtk.Button):
     __gtype_name__ = "NestedButton"
 
-    @Gtk.Template.Callback()
-    def nested_button_clicked(self, button):
-        print("Nested button clicked")
-
 
 @Gtk.Template(filename="templates/nesting_window.ui")
 class NestingWindow(Adw.ApplicationWindow):
     __gtype_name__ = "NestingWindow"
 
     a_nested_button = Gtk.Template.Child("a-nested-button")
+
+    @Gtk.Template.Callback()
+    def button_clicked(self, button):
+        self.close()
 
 
 def on_activate(app):
